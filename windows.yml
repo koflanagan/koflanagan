@@ -1,12 +1,12 @@
 ---
 - hosts: iis
-  
+
   tasks:
 
    - name: Install all updates and reboot
      win_updates:
-     category_names: "*"
-     reboot: yes
+      category_names: "*"
+      reboot: yes
 
 ...
 
